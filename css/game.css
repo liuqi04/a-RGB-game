@@ -1,0 +1,111 @@
+body{
+	box-sizing: border-box;
+	background-color: rgb(0, 0, 0);
+	font-family: 'Lato', sans-serif;
+}
+
+.active{
+	color: rgb(255, 255, 255);
+	background-color: rgb(70, 130, 180);
+}
+
+/*header setting*/
+div#hint{
+	color: rgb(255, 255, 255); 
+}
+
+div#rowabove{
+	background-color: rgb(255, 255, 255);
+	height: 30px;
+}
+
+div#rowcontent{
+	max-width: 600px;
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	height: 100%;
+}
+
+div#generate, div#hint, div#mode{
+	display: inline-block;
+	width: 28%;
+	text-align: center;
+	margin: 0 1%;
+	font-weight: bold;
+	color: rgb(70, 130, 180);
+	height: 100%;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+} 
+
+div#generate{
+	transition: all 0.4s;
+}
+
+div#generate:hover, div#easy:hover, div#hard:hover{
+	background-color: rgb(70, 130, 180);
+	color: rgb(255, 255, 255);
+}
+
+div#easy, div#hard{
+	display: inline-block;
+	width: 48%;
+	height: 100%;
+	transition: all 0.4s;
+}
+
+div#title h3#firstLine{
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+
+div#title h3#secondLine{
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+
+div#title{
+	text-align: center;
+	color: white;
+	background-color: rgb(70, 130, 180);
+}
+
+header div#column{
+	background-color: rgb(255, 255, 255);
+}
+
+div#title h1{
+	font-size: 3.2em;
+	margin-bottom: 0;
+}
+/*header setting ends*/
+
+
+/*main-content setting*/
+div#colorDiv{
+	width: 28%;
+	padding-top: 28%;
+	border-radius: 20px;
+	margin: 2%;
+	float: left;
+	transition: all 0.4s;
+}
+
+div#main-content{
+	max-width: 600px;
+	margin: 15px auto 0;
+}
+/*main-content setting ends*/
+
+@media (max-width: 446px) {
+	div#generate, div#hint, div#mode{
+		font-size: 0.9em;
+		vertical-align: middle;
+	}
+
+	div#generate, div#hint, div#easy, div#hard{
+		line-height: 30px;
+	}
+}

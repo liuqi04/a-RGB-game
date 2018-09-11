@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RGB game</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+<body>
+	<header>
+		<div id="title" >
+			<h3 id="firstLine">THE GREAT</h3>
+			<h1 id="guessTarget">RGB(60, 132, 203)</h1>
+			<h3 id="secondLine">GUESSING GAME</h3>
+		</div>
+		
+		<div id="rowabove">
+			<div id="rowcontent">
+				<div id="generate">NEW COLORS</div>
+				
+				<div id="hint">TRY AGAIN</div>
+				
+				<div id="mode">
+					<div id="easy">EASY</div>
+					<div id="hard" class="active">HARD</div>
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+	<div id="main-content">
+		<div id="colorDiv"></div>
+		<div id="colorDiv"></div>
+		<div id="colorDiv"></div>
+		<div id="colorDiv"></div>
+		<div id="colorDiv"></div>
+		<div id="colorDiv"></div>		
+	</div>
+
+
+
+	<!-- scripts used here -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>
