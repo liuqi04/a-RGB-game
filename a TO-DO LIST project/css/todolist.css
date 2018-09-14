@@ -1,0 +1,94 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background: linear-gradient(to left, rgb(255, 222, 173), rgb(0, 255, 255));
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.done{
+	color: rgb(190, 190, 190);
+	text-decoration: line-through;
+}
+
+.focus{
+	color: rgb(24, 116, 205);
+	border: 1.5px solid rgb(24, 116, 205);
+}
+/*list setting*/
+div#mainContent{
+	max-width: 350px;
+	margin:  100px auto;
+	background-color: white;
+}
+
+button{
+	border: 0;
+	background: inherit;
+	width: 40px;
+	padding: 0;
+}
+
+button#delete{
+	display: none;
+}
+
+input{
+	padding: 0;
+	border: 0;
+	background-color: inherit;
+}
+
+ul#todoList{
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+	height: 35px;
+	line-height: 35px;
+}
+
+ul#todoList li:nth-child(1){
+	background-color: rgb(24, 116, 205);
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	font-size: 1.1em;
+	padding-left: 15px;
+}
+
+ul#todoList li:nth-child(2){
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.1em;
+}
+
+input{
+	padding-left: 15px;
+	width: 100%;
+}
+
+
+button#addTodo{
+	float: right;
+	color: white;
+	outline: none;
+}
+
+button#delete{
+	color: white;
+	background-color: rgb(238, 99, 99);
+}
+
+li span{
+	margin-left: 15px;
+}
+
+ul#todoList li:nth-child(even){
+	background-color: rgb(245, 245, 245);
+}
+/*end list setting*/
